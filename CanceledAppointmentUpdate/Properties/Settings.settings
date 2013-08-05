@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CanceledAppointmentUpdate.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CanceledAppointmentUpdate_AppointmentScheduling_AppointmentScheduling" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://avprdb2:8972/csp/hmhcpmlive/WEBSVC.AppointmentScheduling.cls</Value>
+    </Setting>
+    <Setting Name="CanceledAppointmentUpdate_UserManagement_WebServices" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://avtest:8972/csp/avtest/hmhcpmlive/WEBSVC.UserManagement.cls</Value>
+    </Setting>
+    <Setting Name="CanceledAppointmentUpdate_PractitionerRegister_WebServices" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://avtest:8972/csp/hmhcpmlive/WEBSVC.PractitionerRegister.cls</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
