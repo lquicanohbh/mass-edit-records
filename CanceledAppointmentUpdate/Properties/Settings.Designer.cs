@@ -36,7 +36,7 @@ namespace CanceledAppointmentUpdate.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://avtest:8972/csp/avtest/hmhcpmlive/WEBSVC.UserManagement.cls")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://avprdb2:8972/csp/hmhcpmlive/WEBSVC.UserManagement.cls")]
         public string CanceledAppointmentUpdate_UserManagement_WebServices {
             get {
                 return ((string)(this["CanceledAppointmentUpdate_UserManagement_WebServices"]));

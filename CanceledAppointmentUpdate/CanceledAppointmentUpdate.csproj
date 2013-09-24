@@ -166,10 +166,10 @@
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>CanceledAppointmentUpdate_PractitionerRegister_WebServices</CachedSettingsPropName>
     </WebReferenceUrl>
-    <WebReferenceUrl Include="http://avtest:8972/csp/HMHCPMLIVE/WEBSVC.UserManagement.CLS%3fWSDL=1">
+    <WebReferenceUrl Include="http://avprdb2:8972/csp/HMHCPMLIVE/WEBSVC.UserManagement.CLS%3fWSDL=1">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\UserManagement\</RelPath>
-      <UpdateFromURL>http://avtest:8972/csp/HMHCPMLIVE/WEBSVC.UserManagement.CLS%3fWSDL=1</UpdateFromURL>
+      <UpdateFromURL>http://avprdb2:8972/csp/HMHCPMLIVE/WEBSVC.UserManagement.CLS%3fWSDL=1</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>

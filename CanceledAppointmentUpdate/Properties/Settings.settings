@@ -6,7 +6,7 @@
       <Value Profile="(Default)">http://avprdb2:8972/csp/hmhcpmlive/WEBSVC.AppointmentScheduling.cls</Value>
     </Setting>
     <Setting Name="CanceledAppointmentUpdate_UserManagement_WebServices" Type="(Web Service URL)" Scope="Application">
-      <Value Profile="(Default)">http://avtest:8972/csp/avtest/hmhcpmlive/WEBSVC.UserManagement.cls</Value>
+      <Value Profile="(Default)">http://avprdb2:8972/csp/hmhcpmlive/WEBSVC.UserManagement.cls</Value>
     </Setting>
     <Setting Name="CanceledAppointmentUpdate_PractitionerRegister_WebServices" Type="(Web Service URL)" Scope="Application">
       <Value Profile="(Default)">http://avtest:8972/csp/hmhcpmlive/WEBSVC.PractitionerRegister.cls</Value>

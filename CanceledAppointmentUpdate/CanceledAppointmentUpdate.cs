@@ -44,7 +44,7 @@ namespace CanceledAppointmentUpdate
         public void InitializeFileType()
         {
             FileTypeList.Add(new FileType { TypeName = "Appointments", NumberOfFields = 13, NumberOfFieldsRequired = 8 });
-            FileTypeList.Add(new FileType { TypeName = "User Roles", NumberOfFields = 9, NumberOfFieldsRequired = 8 });
+            FileTypeList.Add(new FileType { TypeName = "User Roles", NumberOfFields = 10, NumberOfFieldsRequired = 8 });
             FileTypeList.Add(new FileType { TypeName = "Practitioner/Staff", NumberOfFields = 9, NumberOfFieldsRequired = 9 });
         }
 
@@ -309,10 +309,10 @@ namespace CanceledAppointmentUpdate
                         IsUserSystemAdministrator = tempObj[5],
                         StaffId = tempObj[6],
                         UserDescription = tempObj[7],
-                        WarnNonCaseloadAccess = tempObj[8]
+                        WarnNonCaseloadAccess = tempObj[8],
+                        PasswordTermDurationDays = Convert.ToInt64(tempObj[9]),
+                        PasswordTermDurationDaysSpecified = true
                     });
-
-
                 }
                 else
                 {
@@ -358,7 +358,6 @@ namespace CanceledAppointmentUpdate
                 default:
                     return response;
             }
-            
         }
 
         private PractitionerRegister.WebServiceResponse FilePractitionerWebService(PractitionerRegistrationObject practitioner)
